@@ -1,5 +1,5 @@
 .navigation-clean {
-  background: #fff;
+  /*background: #fff;*/
   padding-top: .75rem;
   padding-bottom: .75rem;
   color: #333;
@@ -7,6 +7,8 @@
   box-shadow: none;
   border: none;
   margin-bottom: 0;
+  position: fixed;
+  width: 100%;
 }
 
 @media (min-width:768px) {

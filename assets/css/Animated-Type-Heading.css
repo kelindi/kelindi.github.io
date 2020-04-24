@@ -1,8 +1,9 @@
 .cd-words-wrapper {
-  display: inline-block;
+  /*display: inline-block;*/
   position: relative;
   text-align: left;
-  font-size: 70px;
+  font-size: 5vw;
+  font-family: 'Montserrat';
 }
 
 .cd-words-wrapper b {
@@ -14,21 +15,23 @@
 }
 
 .blc {
-  font-size: 70px;
+  font-size: 5vw;
 }
 
 .cd-words-wrapper b.is-visible {
   position: relative;
 }
 
-.cd-headline.clip span {
-  display: inline-block;
-  padding: .2em 0;
+@media (max-width: 768px) {
+  .cd-headline.clip span {
+    display: inline-block;
+    /*padding-bottom: 0.7em 0;*/
+  }
 }
 
 .cd-headline.clip .cd-words-wrapper {
   overflow: hidden;
-  vertical-align: top;
+  /*vertical-align: top;*/
 }
 
 .cd-headline.clip b {
@@ -37,6 +40,14 @@
 
 .cd-headline b.is-visible {
   opacity: 1;
-  font-weight: 900;
+  font-weight: 700;
+}
+
+.card {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 300px;
 }
 
