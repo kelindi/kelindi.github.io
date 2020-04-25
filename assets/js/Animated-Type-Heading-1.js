@@ -10,7 +10,7 @@ jQuery(document).ready(function($) {
         revealAnimationDelay = 1500;
     initHeadline();
     function initHeadline() {
-        singleLetters($(".cd-headline.letters").find("h4"));
+        singleLetters($(".cd-headline.letters").find("b"));
         animateHeadline($(".cd-headline"))
     }
     function singleLetters($words) {
@@ -41,7 +41,7 @@ jQuery(document).ready(function($) {
                     newWidth = spanWrapper.width() + 10;
                 spanWrapper.css("width", newWidth)
             } else if (!headline.hasClass("type")) {
-                var words = headline.find(".cd-words-wrapper h4"),
+                var words = headline.find(".cd-words-wrapper b"),
                     width = 0;
                 words.each(function() {
                     var wordWidth = $(this).width();

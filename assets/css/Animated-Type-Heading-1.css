@@ -3,11 +3,9 @@
   position: relative;
   text-align: left;
   font-size: 70px;
-  font-family: 'Montserrat';
-  font-weight: 100;
 }
 
-.cd-words-wrapper h4 {
+.cd-words-wrapper b {
   display: inline-block;
   position: absolute;
   white-space: nowrap;
@@ -16,16 +14,16 @@
 }
 
 .blc {
-  /*font-size: 70px;*/
+  font-size: 70px;
 }
 
-.cd-words-wrapper h4.is-visible {
+.cd-words-wrapper b.is-visible {
   position: relative;
 }
 
 .cd-headline.clip span {
-  /*display: inline-block;*/
-  /*padding: .2em 0;*/
+  display: inline-block;
+  padding: .2em 0;
 }
 
 .cd-headline.clip .cd-words-wrapper {
@@ -33,19 +31,12 @@
   vertical-align: top;
 }
 
-.cd-headline.clip h4 {
+.cd-headline.clip b {
   opacity: 0;
 }
 
-.cd-headline h4.is-visible {
+.cd-headline b.is-visible {
   opacity: 1;
-  /*font-weight: 900;*/
-}
-
-.caption.v-middle.text-center {
-}
-
-h4 {
-  font-size: 1em;
+  font-weight: 900;
 }
 
