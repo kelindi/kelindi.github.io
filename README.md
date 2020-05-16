@@ -7,4 +7,6 @@ My personal website showcasing my resume and portfolio
 *How to use Bootstrap and BootstrapStudio
 *How to setup a domain 
 
-## [live page](https://kelindi.ca/)
+## [Kelindi.ca](https://kelindi.ca/)
+
+
