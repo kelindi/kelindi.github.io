@@ -63,7 +63,7 @@ h2 {
 
 .place {
   font-size: 0.85em;
-  background-color: black;
+  background-color: rgb(33,37,41);
   display: inline-block;
   color: white;
   padding: 2px 8px;
