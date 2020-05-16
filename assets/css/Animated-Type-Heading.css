@@ -61,3 +61,13 @@ h2 {
   font-size: 3em;
 }
 
+.place {
+  font-size: 0.85em;
+  background-color: black;
+  display: inline-block;
+  color: white;
+  padding: 2px 8px;
+  font-family: 'Montserrat';
+  border-radius: 2em;
+}
+
