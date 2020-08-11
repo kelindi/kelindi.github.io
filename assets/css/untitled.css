@@ -1,4 +1,92 @@
-.border {
-  border: 8px solid #212531!important;
+.bio {
+  font-family: 'Playfair Display', serif;
+  width: 100%;
+  font-size: 14px;
+}
+
+@media (min-width: 576px) {
+  .bio {
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bio {
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bio {
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    font-size: 30px;
+  }
+}
+
+.h6, h6 {
+  font-family: 'Playfair Display', serif;
+  width: 100%;
+  font-size: 40px;
+}
+
+@media (min-width: 576px) {
+  .h6, h6 {
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .h6, h6 {
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    font-size: 70px;
+  }
+}
+
+@media (min-width: 992px) {
+  .h6, h6 {
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    font-size: 110px;
+  }
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+a {
+}
+
+.text-center.d-block.choice {
+}
+
+.choice {
+  font-size: 30px;
+}
+
+@media (min-width: 576px) {
+  .choice {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  .choice {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .choice {
+    font-size: 70px;
+  }
 }
 
