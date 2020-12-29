@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Glitche - CV/Resume/Portfolio Template</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="assets/style.css">
+	<link rel="stylesheet" href="assets/table.css">
+</head>
+<body>
+	<header class="dt-header dt-header_blue">
+		<span class="dt-logo">Glitche v.1.3 - CV/Resume/Portfolio Template</span>
+	</header>	
+	<div class="dt-container dt-container_flex">
+		<aside class="dt-navbar">
+			<nav class="dt-navbar__nav">
+				<div class="dt-navbar__section">
+					<ul class="dt-navbar__list">
+						<li><a href="#files_structure" class="dt-navbar__link">File structure</a></li>
+						<li><a href="#settings" class="dt-navbar__link">Settings</a></li>
+						<li><a href="#include_colors" class="dt-navbar__link">Color Schemes</a></li>
+						<li><a href="#include_dark" class="dt-navbar__link">Dark Version</a></li>
+						<li><a href="#include_rtl" class="dt-navbar__link">RTL Version</a></li>
+						<li><a href="#include_fonts" class="dt-navbar__link">Fonts</a></li>
+						<li><a href="#conts" class="dt-navbar__link">Contact Form PHP</a></li>
+						<li>
+							<a href="#html_structure" class="dt-navbar__link">HTML structure</a>
+							<ul class="dt-navbar__list">
+								<li><a href="#html_structure_home" class="dt-navbar__link dt-navbar__link_nested">HTML structure of "Home" section</a></li>
+								<li><a href="#html_structure_resume" class="dt-navbar__link dt-navbar__link_nested">HTML structure of "Resume" section</a></li>
+								<li><a href="#html_structure_portfolio" class="dt-navbar__link dt-navbar__link_nested">HTML structure of "Portfolio" section</a></li>
+								<li><a href="#html_structure_blog" class="dt-navbar__link dt-navbar__link_nested">HTML structure of "Blog" section</a></li>
+								<li><a href="#html_structure_blog_post" class="dt-navbar__link dt-navbar__link_nested">HTML structure of "Blog Post" section</a></li>
+								<li><a href="#html_structure_contacts" class="dt-navbar__link dt-navbar__link_nested">HTML structure of "Contacts" section</a></li>
+							</ul>
+						</li>
+						<li><a href="#icons" class="dt-navbar__link">Icons</a></li>
+						<li><a href="#credits" class="dt-navbar__link">Credits</a></li>
+					</ul>
+				</div>		
+			</nav>
+		</aside>	
+		<div class="dt-content dt-content_scroll-bar-yes">
+			<div class="dt-section">
+				<h2 class="dt-title">Glitche - CV/Resume/Portfolio Template</h2>
+				<p>By: beshleyua</p>
+				<p>Thank you for your purchase. If you have any questions, mail me to - <a href="mailto:beshleyua@gmail.com">beshleyua@gmail.com</a></p>
+			</div>		
+			<article id="files_structure" class="dt-section">
+				<h2 class="dt-title">File structure</h2>
+				<p>After unpacking archive, you'll see this structure:</p>
+				<div class="dt-info-block">
+					<pre class="code language-html">
+						<code>
+html/
+│ 
+├──doc/
+├──template/
+│──│──css/
+│──│──│──animate.css
+│──│──│──glitche-basic.css
+│──│──│──glitche-layout.css
+│──│──│──ionicons.css
+│──│──│──magnific-popup.css
+│──│──│──rtl.css
+│──│──│──template-colors/
+│──│──│──│──green.css
+│──│──│──│──blue.css
+│──│──│──│──orange.css
+│──│──│──│──pink.css
+│──│──│──│──purple.css
+│──│──│──│──red.css
+│──│──fonts/
+│──│──images/
+│──│──js/
+│──│──│──glitche-scripts.js
+│──│──│──imagesloaded.pkgd.js
+│──│──│──jquery.min.js
+│──│──│──jquery.validate.js
+│──│──│──magnific-popup.js
+│──│──│──isotope.pkgd.js
+│──│──│──typed.js
+│──│──less/
+│──│──│──glitche-basic.less
+│──│──│──glitche-layout.less
+│──│──│──setting.less
+│──│──index.html
+│──│──index-onepage.html
+│──│──resume.html
+│──│──portfolio.html
+│──│──blog.html
+│──│──blog_inner.html
+│──│──contacts.html
+│──│──index-dark.html
+│──│──index-onepage-dark.html
+│──│──resume-dark.html
+│──│──portfolio-dark.html
+│──│──blog-dark.html
+│──│──blog_inner-dark.html
+│──│──contacts-dark.html
+│──│──index-rtl.html
+│──│──index-onepage-rtl.html
+│──│──resume-rtl.html
+│──│──portfolio-rtl.html
+│──│──blog-rtl.html
+│──│──blog_inner-rtl.html
+│──│──contacts-rtl.html
+						</code>
+					</pre>
+				</div>
+				<ul class="dt-list dt-list_nested dt-info-block">
+					<li>
+						<span class="dt-label dt-label_bold">css</span> - all CSS for pages
+						<ul class="dt-list dt-list_nested">
+							<li><span class="dt-label dt-label_bold">animate.css</span> - CSS for animations</li>
+							<li><span class="dt-label dt-label_bold">ionicons.css</span> - CSS for "ionicons" icons</li>
+							<li><span class="dt-label dt-label_bold">magnific-popup.css</span> - CSS for "Magnific Popup" plugin</li>
+							<li><span class="dt-label dt-label_bold">glitche-basic.css</span> - CSS for basic styles</li>
+							<li><span class="dt-label dt-label_bold">glitche-layout.css</span> - CSS for theme layout</li>
+							<li><span class="dt-label dt-label_bold">rtl.css</span> - CSS for rtl layout</li>
+							<li><span class="dt-label dt-label_bold">template-colors/</span> - CSS for template color schemes</li>
+						</ul>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">less</span> - all LESS for pages
+						<ul class="dt-list dt-list_nested">
+							<li><span class="dt-label dt-label_bold">setting.less</span> - LESS for setting theme</li>
+							<li><span class="dt-label dt-label_bold">glitche-basic.less</span> - LESS for basic styles</li>
+							<li><span class="dt-label dt-label_bold">glitche-layout.less</span> - LESS for theme layout</li>
+						</ul>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">js</span> - all JS for pages
+						<ul class="dt-list dt-list_nested">
+							<li><span class="dt-label dt-label_bold">glitche-scripts.js</span> - Main JS for theme</li>
+							<li><span class="dt-label dt-label_bold">imagesloaded.pkgd.js</span> - JS plugin for masonry</li>
+							<li><span class="dt-label dt-label_bold">jquery.min.js</span> - jQuery library</li>
+							<li><span class="dt-label dt-label_bold">jquery.validate.js</span> - JS plugin for validate forms</li>
+							<li><span class="dt-label dt-label_bold">magnific-popup.js</span> - JS plugin for popups</li>
+							<li><span class="dt-label dt-label_bold">isotope.pkgd.js</span> - Isotope plugin for: "Portfolio", "Clients", "Blog" items</li>
+							<li><span class="dt-label dt-label_bold">typed.js</span> - JS plugin for typing text animation</li>
+						</ul>
+					</li>
+				</ul>
+			</article>
+			<article id="settings" class="dt-section">
+				<h2 class="dt-title">Settings</h2>
+				<p>
+					For editing the theme you can use following settings, folder "/less/setting.less" .
+				</p>
+
+				<table>
+					<thead>
+					<tr>
+						<th>Name</th>
+						<th>Value</th>
+						<th>Description</th>
+					</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td colspan="3"><span class="dt-label dt-label_bold">Colors setting for theme elements</span></td>
+						</tr>
+						<tr>
+							<td>@bg</td>
+							<td>#fff</td>
+							<td>Container color</td>
+						</tr>
+						<tr>
+							<td>@default-color</td>
+							<td>#363636</td>
+							<td>Default color</td>
+						</tr>
+						<tr>
+							<td>@extra-color</td>
+							<td>#999</td>
+							<td>Extra color</td>
+						</tr>
+						<tr>
+							<td>@dark-color</td>
+							<td>#141414</td>
+							<td>Dark color</td>
+						</tr>
+						<tr>
+							<td>@light-color</td>
+							<td>#DDD</td>
+							<td>Light color</td>
+						</tr>
+						<tr>
+							<td>@white-color</td>
+							<td>#fff</td>
+							<td>White color</td>
+						</tr>
+						<tr>
+							<td>@active-color</td>
+							<td>#f26b38</td>
+							<td>Theme color</td>
+						</tr>
+						<tr>
+							<td>@extra-active-color</td>
+							<td>#ede574</td>
+							<td>Titles color</td>
+						</tr>
+						<tr>
+							<td>@error-color</td>
+							<td>red</td>
+							<td>Error field color</td>
+						</tr>
+						<tr>
+							<td colspan="3"><span class="dt-label dt-label_bold">Fonts setting for theme</span></td>
+						</tr>
+						<tr>
+							<td>@default-font</td>
+							<td>'Roboto Mono'</td>
+							<td>Default font for Theme</td>
+						</tr>
+						<tr>
+							<td>@icons-font</td>
+							<td>'Ionicons'</td>
+							<td>Icons font for Theme</td>
+						</tr>
+						<tr>
+							<td colspan="3"><span class="dt-label dt-label_bold">Sizes setting for theme</span></td>
+						</tr>
+						<tr>
+							<td>@large-size</td>
+							<td>15px</td>
+							<td>Large Size</td>
+						</tr>
+						<tr>
+							<td>@default-size</td>
+							<td>13px</td>
+							<td>Default Size</td>
+						</tr>
+						<tr>
+							<td>@small-size</td>
+							<td>12px</td>
+							<td>Small Size</td>
+						</tr>
+						<tr>
+							<td>@extra-small-size</td>
+							<td>11px</td>
+							<td>Extra Small Size</td>
+						</tr>
+						<tr>
+							<td>@title-size</td>
+							<td>68px</td>
+							<td>Title Size</td>
+						</tr>
+						<tr>
+							<td>@subtitle-size</td>
+							<td>15px</td>
+							<td>Subtitle Size</td>
+						</tr>
+						<tr>
+							<td>@h1-size</td>
+							<td>26px</td>
+							<td>H1 Size</td>
+						</tr>
+						<tr>
+							<td>@h2-size</td>
+							<td>23px</td>
+							<td>H2 Size</td>
+						</tr>
+						<tr>
+							<td>@h3-size</td>
+							<td>20px</td>
+							<td>H3 Size</td>
+						</tr>
+						<tr>
+							<td>@h4-size</td>
+							<td>18px</td>
+							<td>H4 Size</td>
+						</tr>
+						<tr>
+							<td>@h5-size</td>
+							<td>16px</td>
+							<td>H5 Size</td>
+						</tr>
+						<tr>
+							<td>@h6-size</td>
+							<td>14px</td>
+							<td>H6 Size</td>
+						</tr>
+						<tr>
+							<td>@default-letter-spacing</td>
+							<td>0em</td>
+							<td>Default Letter Spacing</td>
+						</tr>
+						<tr>
+							<td>@extra-letter-spacing</td>
+							<td>0.04em;</td>
+							<td>Extra Letter Spacing</td>
+						</tr>
+						<tr>
+							<td>@line-height</td>
+							<td>23px</td>
+							<td>Default Line-height for text</td>
+						</tr>
+						<tr>
+							<td colspan="3"><span class="dt-label dt-label_bold">Colors Theme</span></td>
+						</tr>
+						<tr>
+							<td>@active-color</td>
+							<td>#f26b38</td>
+							<td>Default(Orange) Theme color</td>
+						</tr>
+						<tr>
+							<td>@active-color</td>
+							<td>#e84a5f</td>
+							<td>Red Theme color</td>
+						</tr>
+						<tr>
+							<td>@active-color</td>
+							<td>#9C27B0</td>
+							<td>Purple Theme color</td>
+						</tr>
+						<tr>
+							<td>@active-color</td>
+							<td>#303F9F</td>
+							<td>Blue Theme color</td>
+						</tr>
+						<tr>
+							<td>@active-color</td>
+							<td>#4CAF50</td>
+							<td>Green Theme color</td>
+						</tr>
+						<tr>
+							<td>@active-color</td>
+							<td>#FF4081</td>
+							<td>Pink Theme color</td>
+						</tr>
+					</tbody>
+				</table>				
+			</article>
+			<article id="include_colors" class="dt-section">
+				<h2 class="dt-title">Colors Schemes</h2>
+				<p>Just add "green.css (or blue.css, orange.css, red.css, pink.css, purple.css)" at the end of the tag &lt;head&gt;, on .html file:</p>
+				<pre class="code language-html">
+					<code>
+&lt;link rel="stylesheet" href="css/template-colors/green.css" /&gt;
+&lt;link rel="stylesheet" href="css/template-colors/blue.css" /&gt;
+&lt;link rel="stylesheet" href="css/template-colors/orange.css" /&gt;
+&lt;link rel="stylesheet" href="css/template-colors/pink.css" /&gt;
+&lt;link rel="stylesheet" href="css/template-colors/purple.css" /&gt;
+&lt;link rel="stylesheet" href="css/template-colors/red.css" /&gt;
+					</code>
+				</pre>
+			</article>
+            <article id="include_dark" class="dt-section">
+				<h2 class="dt-title">Dark Version</h2>
+				<p>Just uncomment "new-skin.css" line in the tag &lt;head&gt;, on .html file:</p>
+				<pre class="code language-html">
+					<code>
+&lt;link rel="stylesheet" href="css/template-dark/dark.css" /&gt;
+					</code>
+				</pre>
+			</article>
+            <article id="include_rtl" class="dt-section">
+				<h2 class="dt-title">RTL Version</h2>
+				<p>Just uncomment "rtl.css" line in the tag &lt;head&gt;, on .html file:</p>
+				<pre class="code language-html">
+					<code>
+&lt;link rel="stylesheet" href="css/rtl.css" /&gt;
+					</code>
+				</pre>				
+			</article>
+			<article id="include_fonts" class="dt-section">
+				<h2 class="dt-title">Include of fonts</h2>
+				<p>To use fonts, you must add one tag 'link' from section below to head section.</p>
+				<pre class="code language-html">
+					<code>
+&lt;link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,300italic,300,100italic,400italic,500,500italic,700,700italic&amp;subset=latin,cyrillic" 
+rel="stylesheet"&gt;										
+					</code>
+				</pre>	
+				<p>
+					Next step is to set the @default-font option with using settings table.
+				</p>				
+			</article>
+			<article id="conts" class="dt-section">
+				<h2 class="dt-title">Contact Form PHP</h2>
+				<p>To modify the form is submitted, you can use the following settings, folders "/mailer/form_setting.php" and "/mailer/feedback.php"</p>				
+			</article>
+			<article id="html_structure" class="dt-section">
+				<h2 class="dt-title">HTML structure</h2>
+				<pre class="code language-html">
+					<code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	
+	&lt;!-- Meta-information --&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+	&lt;title&gt;Glitche - CV/Resume Template&lt;/title&gt;
+	&lt;meta name="description" content=""&gt;
+	&lt;meta name="keywords" content=""&gt;
+	
+	&lt;!-- Mobile Specific Metas --&gt;
+	&lt;meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"&gt;
+	
+	&lt;!-- Load Fonts --&gt;
+	&lt;link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,300italic,300,100italic,400italic,500,500italic,700,700italic&amp;subset=latin,cyrillic' 
+	rel='stylesheet'&gt;
+	
+	&lt;!-- CSS --&gt;
+	&lt;link rel="stylesheet" href="css/glitche-basic.css" /&gt;
+	&lt;link rel="stylesheet" href="css/glitche-layout.css" /&gt;
+	&lt;link rel="stylesheet" href="css/ionicons.css" /&gt;
+	&lt;link rel="stylesheet" href="css/magnific-popup.css" /&gt;
+	&lt;link rel="stylesheet" href="css/animate.css" /&gt;
+	
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"&gt;&lt;/script&gt;
+	&lt;script src="http://html5shim.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+	
+	&lt;!-- Favicons --&gt;
+	&lt;link rel="shortcut icon" href="images/favicons/favicon.ico"&gt;
+	&lt;link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png"&gt;
+	&lt;link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png"&gt;
+	&lt;link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png"&gt;
+	
+&lt;/head&gt;
+
+&lt;body class="load"&gt;	
+	
+	&lt;!-- Preloader --&gt;
+	&lt;div class="preloader"&gt;
+		&lt;div class="centrize full-width"&gt;
+			&lt;div class="vertical-center"&gt;
+				&lt;div class="pre-inner"&gt;
+					&lt;div class="load typing-load"&gt;&lt;p&gt;loading...&lt;/p&gt;&lt;/div&gt;
+					&lt;span class="typed-load"&gt;&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	
+	&lt;!-- Container --&gt;
+	&lt;div class="container"&gt;
+		
+		&lt;!-- Header --&gt;
+		&lt;header&gt;
+			&lt;div class="head-top"&gt;
+				&lt;a href="#" class="menu-btn"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;
+				&lt;div class="top-menu"&gt;
+					&lt;ul&gt;
+						&lt;li&gt;&lt;a href="resume.html" class="lnk" data-text="Resume"&gt;Resume&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="portfolio.html" class="lnk" data-text="Portfolio"&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="blog.html" class="lnk" data-text="Blog"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="contacts.html" class="btn" data-text="Contacts"&gt;Contacts&lt;/a&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/header&gt;
+		
+		&lt;div class="wrapper"&gt;
+		
+			...
+		
+		&lt;/div&gt;
+		
+		&lt;!-- Footer --&gt;
+		&lt;footer&gt;
+			&lt;div class="soc"&gt;
+				&lt;a target="_blank" href="https://dribbble.com/"&gt;&lt;span class="ion ion-social-dribbble"&gt;&lt;/span&gt;&lt;/a&gt;
+				&lt;a target="_blank" href="https://twitter.com/"&gt;&lt;span class="ion ion-social-twitter"&gt;&lt;/span&gt;&lt;/a&gt;
+				&lt;a target="_blank" href="https://github.com/"&gt;&lt;span class="ion ion-social-github"&gt;&lt;/span&gt;&lt;/a&gt;
+				&lt;a target="_blank" href="https://www.instagram.com/"&gt;&lt;span class="ion ion-social-instagram-outline"&gt;&lt;/span&gt;&lt;/a&gt;
+			&lt;/div&gt;
+			&lt;div class="copy"&gt;© 2016 Glitche. All rights reserved.&lt;/div&gt;
+			&lt;div class="clr"&gt;&lt;/div&gt;
+		&lt;/footer&gt;
+		
+		&lt;!-- Lines --&gt;
+		&lt;div class="line top"&gt;&lt;/div&gt;
+		&lt;div class="line bottom"&gt;&lt;/div&gt;
+		&lt;div class="line left"&gt;&lt;/div&gt;
+		&lt;div class="line right"&gt;&lt;/div&gt;
+		
+	&lt;/div&gt;
+	
+	&lt;!-- jQuery Scripts --&gt;
+    &lt;script src="js/jquery.min.js"&gt;&lt;/script&gt;
+	&lt;script src="js/jquery.validate.js"&gt;&lt;/script&gt;
+	&lt;script src="js/typed.js"&gt;&lt;/script&gt;
+	&lt;script src="js/magnific-popup.js"&gt;&lt;/script&gt;
+	&lt;script src="js/masonry.pkgd.js"&gt;&lt;/script&gt;
+	&lt;script src="js/imagesloaded.pkgd.js"&gt;&lt;/script&gt;
+	&lt;script src="js/masonry-filter.js"&gt;&lt;/script&gt;
+	
+	&lt;!-- Main Scripts --&gt;
+	&lt;script src="js/glitche-scripts.js"&gt;&lt;/script&gt;
+	
+&lt;/body&gt;
+&lt;/html&gt;
+					</code>
+				</pre>				
+			</article>
+			<article id="html_structure_home" class="dt-section">
+				<h2 class="dt-title">HTML structure of "Home" section</h2>
+				<pre class="code language-html">
+					<code>
+&lt;div class="wrapper"&gt;
+
+	&lt;!-- I'm John Doe --&gt;
+	&lt;div class="section started"&gt;
+		&lt;div class="centrize full-width"&gt;
+			&lt;div class="vertical-center"&gt;
+				&lt;div class="started-content"&gt;
+					&lt;div class="h-title glitch-effect" data-text="I'm John Doe"&gt;I'm &lt;span&gt;John Doe&lt;/span&gt;&lt;/div&gt;
+					&lt;div class="h-subtitle typing-subtitle"&gt;
+						&lt;p&gt;UX/UI Designer and Front-end Director.&lt;/p&gt;
+						&lt;p&gt;Based in Kiev.&lt;/p&gt;
+					&lt;/div&gt;
+					&lt;span class="typed-subtitle"&gt;&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+&lt;/div&gt;
+					</code>
+				</pre>				
+			</article>
+			<article id="html_structure_resume" class="dt-section">
+				<h2 class="dt-title">HTML structure of "Resume" section</h2>
+				<pre class="code language-html">
+					<code>
+&lt;div class="wrapper"&gt;
+		
+	&lt;!-- Started --&gt;
+	&lt;div class="section started"&gt;
+		&lt;div class="centrize full-width"&gt;
+			&lt;div class="vertical-center"&gt;
+				&lt;div class="started-content"&gt;
+					&lt;div class="h-title glitch-effect" data-text="Resume"&gt;Resume&lt;/div&gt;
+					&lt;div class="h-subtitle typing-bread"&gt;
+						&lt;p&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt; / &lt;a href="resume.html"&gt;Resume&lt;/a&gt;&lt;/p&gt;
+					&lt;/div&gt;
+					&lt;span class="typed-bread"&gt;&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;a href="#" class="mouse_btn"&gt;&lt;span class="ion ion-mouse"&gt;&lt;/span&gt;&lt;/a&gt;
+	&lt;/div&gt;
+	
+	&lt;!-- About --&gt;
+	&lt;div class="section about"&gt;
+		&lt;div class="content"&gt;
+			&lt;div class="title"&gt;
+				&lt;div class="title_inner"&gt;About Me&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class="image"&gt;
+				&lt;img src="images/man1.jpg" alt="" /&gt;
+			&lt;/div&gt;
+			&lt;div class="desc"&gt;
+				&lt;p&gt;Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an, cule dicta 
+				iriure at. Ubique maluisset vel te, his dico vituperata ut. Pro ei phaedrum maluisset. Ex audire suavitate has, 
+				ei quodsi tacimates sapientem sed, pri zril ubique ut. Te cule tation munere noluisse. Enim torquatos ne pri, 
+				eum mollis salutandi corrumpit et, fugit apeirian duo ad.&lt;/p&gt;
+				&lt;div class="info-list"&gt;
+					&lt;ul&gt;
+						&lt;li&gt;&lt;strong&gt;Name:&lt;/strong&gt; John Doe&lt;/li&gt;
+						&lt;li&gt;&lt;strong&gt;Age:&lt;/strong&gt; 22 Years&lt;/li&gt;
+						&lt;li&gt;&lt;strong&gt;Job:&lt;/strong&gt; Web Developer&lt;/li&gt;
+						&lt;li&gt;&lt;strong&gt;Citizenship:&lt;/strong&gt; Ukraine&lt;/li&gt;
+						&lt;li&gt;&lt;strong&gt;Residence: &lt;/strong&gt; Kiev&lt;/li&gt;
+						&lt;li&gt;&lt;strong&gt;E-mail:&lt;/strong&gt; johndoe@domain.com&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/div&gt;
+				&lt;div class="bts"&gt;&lt;a href="#" class="btn fill" data-text="Download CV"&gt;Download CV&lt;/a&gt;&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class="clear"&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	
+	&lt;!-- Resume --&gt;
+	&lt;div class="section resume"&gt;
+		&lt;div class="content"&gt;
+			&lt;div class="cols"&gt;
+				&lt;div class="col col-md"&gt;
+					&lt;div class="title"&gt;
+						&lt;div class="title_inner"&gt;Experience&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div class="resume-items"&gt;
+						&lt;div class="resume-item active"&gt;
+							&lt;div class="date"&gt;2013 - Present&lt;/div&gt;
+							&lt;div class="name"&gt;Art Director - Facebook Inc&lt;/div&gt;
+							&lt;p&gt;Morbi nulla arcu, pellentesque sed egestas in, tempor eget felis. Nullam tincidunt augue 
+							in leo feugiat, quis interdum nisi sollicitudin.&lt;/p&gt;
+						&lt;/div&gt;
+						&lt;div class="resume-item"&gt;
+							&lt;div class="date"&gt;2011 - 2012&lt;/div&gt;
+							&lt;div class="name"&gt;Front-end Developer - Google Inc&lt;/div&gt;
+							&lt;p&gt;Duis ipsum ligula, feugiat nec auctor vitae, porta sit amet urna. Praesent ex lorem, 
+							porta nec aliquet eu, ullamcorper eget nibh.&lt;/p&gt;
+						&lt;/div&gt;
+						...
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="col col-md"&gt;
+					&lt;div class="title"&gt;
+						&lt;div class="title_inner"&gt;Education&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div class="resume-items"&gt;
+						&lt;div class="resume-item"&gt;
+							&lt;div class="date"&gt;2007 - 2008&lt;/div&gt;
+							&lt;div class="name"&gt;Art University of New York&lt;/div&gt;
+							&lt;p&gt;Morbi nulla arcu, pellentesque sed egestas in, tempor eget felis. Nullam tincidunt augue 
+							in leo feugiat, quis interdum nisi sollicitudin.&lt;/p&gt;
+						&lt;/div&gt;
+						...
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	
+	&lt;!-- Skills --&gt;
+	&lt;div class="section skills"&gt;
+		&lt;div class="content"&gt;
+			&lt;div class="title"&gt;
+				&lt;div class="title_inner"&gt;My Skills&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class="skills"&gt;
+				&lt;ul&gt;
+					&lt;li&gt; 
+						&lt;div class="name"&gt;WordPress&lt;/div&gt;
+						&lt;div class="progress"&gt;
+							&lt;div class="percentage" style="width:70%;"&gt;
+								&lt;span class="percent"&gt;70%&lt;/span&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/li&gt;
+					...
+				&lt;/ul&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	
+	&lt;!-- Service --&gt;
+	&lt;div class="section service"&gt;
+		&lt;div class="content"&gt;
+			&lt;div class="title"&gt;
+				&lt;div class="title_inner"&gt;My Services&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class="service-items"&gt;
+				&lt;div class="service-item"&gt;
+					&lt;div class="icon"&gt;&lt;span class="ion ion-social-html5"&gt;&lt;/span&gt;&lt;/div&gt;
+					&lt;div class="name"&gt;Front-end&lt;/div&gt;
+					&lt;p&gt;Morbi nulla arcu, pellentesque sed egestas in.&lt;/p&gt;
+				&lt;/div&gt;
+				...
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	
+	&lt;!-- Clients --&gt;
+	&lt;div class="section clients"&gt;
+		&lt;div class="content"&gt;
+			&lt;div class="title"&gt;
+				&lt;div class="title_inner"&gt;Clients&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class="box-items"&gt;
+				&lt;div class="box-item"&gt;
+					&lt;div class="image"&gt;
+						&lt;a target="_blank" href="https://www.google.com"&gt;
+							&lt;img src="images/clients/client_1.png" alt="" /&gt;
+							&lt;span class="info"&gt;
+								&lt;span class="centrize full-width"&gt;
+									&lt;span class="vertical-center"&gt;
+										&lt;span class="ion ion-link"&gt;&lt;/span&gt;
+									&lt;/span&gt;
+								&lt;/span&gt;
+							&lt;/span&gt;
+						&lt;/a&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				...
+			&lt;/div&gt;
+			&lt;div class="clear"&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+&lt;/div&gt;
+					</code>
+				</pre>							
+			</article>
+			<article id="html_structure_portfolio" class="dt-section">
+				<h2 class="dt-title">HTML structure of "Portfolio" section</h2>		
+				<pre class="code language-html">
+					<code>
+&lt;!-- Started Portfolio --&gt;
+&lt;div class="section started"&gt;
+	&lt;div class="centrize full-width"&gt;
+		&lt;div class="vertical-center"&gt;
+			&lt;div class="started-content"&gt;
+				&lt;div class="h-title glitch-effect" data-text="Portfolio"&gt;Portfolio&lt;/div&gt;
+				&lt;div class="h-subtitle typing-bread"&gt;
+					&lt;p&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt; / &lt;a href="portfolio.html"&gt;Portfolio&lt;/a&gt;&lt;/p&gt;
+				&lt;/div&gt;
+				&lt;span class="typed-bread"&gt;&lt;/span&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;a href="#" class="mouse_btn"&gt;&lt;span class="ion ion-mouse"&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;!-- Works --&gt;
+&lt;div class="section works"&gt;
+	&lt;div class="content"&gt;
+		&lt;div class="title"&gt;
+			&lt;div class="title_inner"&gt;Recent Works&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;!-- Works Filter --&gt;
+		&lt;div class="filter-menu"&gt;
+			&lt;div class="filters"&gt;
+				&lt;div class="btn-group"&gt;
+					&lt;label data-text="Nature"&gt;&lt;input type="checkbox" value="f-graphic" /&gt;Graphics&lt;/label&gt;
+					...
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;!-- Works Items --&gt;
+		&lt;div class="box-items"&gt;
+			&lt;!-- Work Item --&gt;
+			&lt;div class="box-item f-mockups"&gt;
+				&lt;div class="image"&gt;
+					&lt;a href="#popup-1" class="has-popup"&gt;
+						&lt;img src="images/works/work1.jpg" alt="" /&gt;
+						&lt;span class="info"&gt;
+							&lt;span class="centrize full-width"&gt;
+								&lt;span class="vertical-center"&gt;
+									&lt;span class="ion ion-ios-plus-empty"&gt;&lt;/span&gt;
+								&lt;/span&gt;
+							&lt;/span&gt;
+						&lt;/span&gt;
+					&lt;/a&gt;
+				&lt;/div&gt;
+				&lt;div class="desc"&gt;
+					&lt;div class="category"&gt;Mockups&lt;/div&gt;
+					&lt;a href="#popup-1" class="name has-popup"&gt;Canvas Tote Bag MockUp&lt;/a&gt;
+				&lt;/div&gt;
+				&lt;!-- Work Popup --&gt;
+				&lt;div id="popup-1" class="popup-box mfp-fade mfp-hide"&gt;
+					&lt;div class="content"&gt;
+						&lt;div class="image"&gt;
+							&lt;img src="images/works/work1.jpg" alt=""&gt;
+						&lt;/div&gt;
+						&lt;div class="desc"&gt;
+							&lt;div class="category"&gt;Mockups&lt;/div&gt;
+							&lt;h4&gt;Canvas Tote Bag MockUp&lt;/h4&gt;
+							&lt;p&gt;Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat 
+							vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.&lt;/p&gt;
+							&lt;a href="#" class="btn" data-text="View Project"&gt;View Project&lt;/a&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			...
+		&lt;/div&gt;
+		&lt;div class="clear"&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+					</code>
+				</pre>							
+			</article>
+			<article id="html_structure_blog" class="dt-section">
+				<h2 class="dt-title">HTML structure of "Blog" section</h2>		
+				<pre class="code language-html">
+					<code>
+&lt;!-- Started Blog --&gt;
+&lt;div class="section started"&gt;
+	&lt;div class="centrize full-width"&gt;
+		&lt;div class="vertical-center"&gt;
+			&lt;div class="started-content"&gt;
+				&lt;div class="h-title glitch-effect" data-text="Blog"&gt;Blog&lt;/div&gt;
+				&lt;div class="h-subtitle typing-bread"&gt;
+					&lt;p&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt; / &lt;a href="blog.html"&gt;Blog&lt;/a&gt;&lt;/p&gt;
+				&lt;/div&gt;
+				&lt;span class="typed-bread"&gt;&lt;/span&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;a href="#" class="mouse_btn"&gt;&lt;span class="ion ion-mouse"&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;!-- Blog --&gt;
+&lt;div class="section blog"&gt;
+	&lt;div class="content"&gt;
+		&lt;div class="title"&gt;
+			&lt;div class="title_inner"&gt;Latest Posts&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;!-- Blog items --&gt;
+		&lt;div class="box-items"&gt;
+			&lt;!-- Blog item --&gt;
+			&lt;div class="box-item"&gt;
+				&lt;div class="image"&gt;
+					&lt;a href="blog_inner.html"&gt;
+						&lt;img src="images/works/work1.jpg" alt="" /&gt;
+						&lt;span class="info"&gt;
+							&lt;span class="centrize full-width"&gt;
+								&lt;span class="vertical-center"&gt;
+									&lt;span class="ion ion-ios-book-outline"&gt;&lt;/span&gt;
+								&lt;/span&gt;
+							&lt;/span&gt;
+						&lt;/span&gt;
+					&lt;/a&gt;
+				&lt;/div&gt;
+				&lt;div class="desc"&gt;
+					&lt;div class="date"&gt;14 June 2016&lt;/div&gt;
+					&lt;a href="blog_inner.html" class="name"&gt;Designing the perfect notification UX&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			....
+		&lt;/div&gt;
+		&lt;div class="clear"&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+					</code>
+				</pre>							
+			</article>	
+			<article id="html_structure_blog_post" class="dt-section">
+				<h2 class="dt-title">HTML structure of "Blog Post" section</h2>		
+				<pre class="code language-html">
+					<code>
+&lt;!-- Started Blog Post --&gt;
+&lt;div class="section started"&gt;
+	&lt;div class="centrize full-width"&gt;
+		&lt;div class="vertical-center"&gt;
+			&lt;div class="started-content"&gt;
+				&lt;div class="date"&gt;14 June 2016&lt;/div&gt;
+				&lt;div class="h-title blog_title"&gt;Designing the perfect notification UX&lt;/div&gt;
+				&lt;div class="h-subtitle typing-bread"&gt;
+					&lt;p&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt; / &lt;a href="blog.html"&gt;Blog&lt;/a&gt;&lt;/p&gt;
+				&lt;/div&gt;
+				&lt;span class="typed-bread"&gt;&lt;/span&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;a href="#" class="mouse_btn"&gt;&lt;span class="ion ion-mouse"&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;!-- Blog Post --&gt;
+&lt;div class="section blog"&gt;
+	&lt;div class="content"&gt;
+		
+		&lt;!-- Blog Content --&gt;
+		&lt;div class="single-post-text"&gt;
+			&lt;p&gt;No dolorem blandit theophrastus eos, nam eu persecuti repudiandae, duo hinc vide aliquip et. Ex atqui voluptatibus eum, 
+			cu case intellegebat eum, mea ex regione patrioque signiferumque. Pri ei solet graecis. Ea appetere referrentur vituperatoribus 
+			cule, vix sanctus meliore cu. Nec in sale prima nostrud.&lt;/p&gt;
+			&lt;p&gt;&lt;img src="images/blog_1.jpg" alt="" /&gt;&lt;/p&gt;
+			&lt;p&gt;Ex audire suavitate has, ei quodsi tacimates sapientem sed, pri zril ubique ut. Te cule tation munere noluisse. Enim 
+			torquatos ne pri, eum mollis salutandi corrumpit et, fugit apeirian duo ad. Ad oportere voluptatibus nec, sea ei civibus praesent. 
+			At timeam expetenda inciderint has. Invidunt constituto ne per, paulo omnium quaerendum his eu, cu congue consul cetero cule. 
+			Solet honestatis et eum. Euismod consulatu eos eu. Vocent facilis sensibus vel ut, quo an nihil qualisque. Mea eu nulla prompta. 
+			Dicat velit at usu, malis euismod vim an, tollit discere vix in. Ne his eros dolor. Cu illud lorem putent vel. Eum in movet nostrum 
+			referrentur. His ne tantas tractatos. Sit eu saperet antiopam.&lt;/p&gt;
+			&lt;p&gt;No dolorem blandit theophrastus eos, nam eu persecuti repudiandae, duo hinc vide aliquip et. Ex atqui voluptatibus eum, 
+			cu case intellegebat eum, mea ex regione patrioque signiferumque. Pri ei solet graecis. Ea appetere referrentur vituperatoribus
+			cule, vix sanctus meliore cu. Nec in sale prima nostrud.&lt;/p&gt;
+		&lt;/div&gt;
+		
+		&lt;!-- Blog Comments --&gt;
+		&lt;div class="post-comments"&gt;
+			&lt;div class="title"&gt;
+				&lt;div class="title_inner"&gt;4 COMMENTS&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;!-- Comments Items --&gt;
+			&lt;ul class="comments"&gt;
+				&lt;li class="post-comment"&gt;
+					&lt;div class="image"&gt;
+						&lt;img src="images/man1.jpg" alt=""&gt;
+					&lt;/div&gt;
+					&lt;div class="desc"&gt;
+						&lt;div class="name"&gt;Jesse Pitman&lt;/div&gt;
+						&lt;p&gt;An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, 
+						ut mutat delenit est.&lt;/p&gt;
+					&lt;/div&gt;
+				&lt;/li&gt;
+				&lt;li class="post-comment"&gt;
+					&lt;div class="image"&gt;
+						&lt;img src="images/man1.jpg" alt=""&gt;
+					&lt;/div&gt;
+					&lt;div class="desc"&gt;
+						&lt;div class="name"&gt;John Doe&lt;/div&gt;
+						&lt;p&gt;An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, 
+						ut mutat delenit est.&lt;/p&gt;
+					&lt;/div&gt;
+				&lt;/li&gt;
+				&lt;li class="post-comment"&gt;
+					&lt;div class="image"&gt;
+						&lt;img src="images/man1.jpg" alt=""&gt;
+					&lt;/div&gt;
+					&lt;div class="desc"&gt;
+						&lt;div class="name"&gt;James Collins&lt;/div&gt;
+						&lt;p&gt;An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, 
+						ut mutat delenit est.&lt;/p&gt;
+					&lt;/div&gt;
+				&lt;/li&gt;
+				&lt;li class="post-comment"&gt;
+					&lt;div class="image"&gt;
+						&lt;img src="images/man1.jpg" alt=""&gt;
+					&lt;/div&gt;
+					&lt;div class="desc"&gt;
+						&lt;div class="name"&gt;Alex Ferguson&lt;/div&gt;
+						&lt;p&gt;An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, 
+						ut mutat delenit est.&lt;/p&gt;
+					&lt;/div&gt;
+				&lt;/li&gt;
+			&lt;/ul&gt;
+			&lt;!-- Add Comment Form --&gt;
+			&lt;div class="form-comment"&gt;
+				&lt;div class="title"&gt;
+					&lt;div class="title_inner"&gt;Write a comment&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;form id="comment_form" method="post"&gt;
+					&lt;div class="group-val"&gt;
+						&lt;input type="text" name="name" placeholder="Name" /&gt;
+					&lt;/div&gt;
+					&lt;div class="group-val"&gt;
+						&lt;input type="text" name="email" placeholder="Email" /&gt;
+					&lt;/div&gt;
+					&lt;div class="group-val ct-gr"&gt;
+						&lt;textarea name="message" placeholder="Comment"&gt;&lt;/textarea&gt;
+					&lt;/div&gt;
+					&lt;a href="#" class="btn fill" onclick="$('#comment_form').submit(); return false;" data-text="Add Comment"&gt;Add Comment&lt;/a&gt;
+				&lt;/form&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		
+		&lt;div class="clear"&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+					</code>
+				</pre>							
+			</article>	
+			<article id="html_structure_contacts" class="dt-section">
+				<h2 class="dt-title">HTML structure of "Contacts" section</h2>		
+				<pre class="code language-html">
+					<code>
+&lt;!-- Started Contacts --&gt;
+&lt;div class="section started"&gt;
+	&lt;div class="centrize full-width"&gt;
+		&lt;div class="vertical-center"&gt;
+			&lt;div class="started-content"&gt;
+				&lt;div class="h-title glitch-effect" data-text="Contacts"&gt;Contacts&lt;/div&gt;
+				&lt;div class="h-subtitle typing-bread"&gt;
+					&lt;p&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt; / &lt;a href="contacts.html"&gt;Contacts&lt;/a&gt;&lt;/p&gt;
+				&lt;/div&gt;
+				&lt;span class="typed-bread"&gt;&lt;/span&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;a href="#" class="mouse_btn"&gt;&lt;span class="ion ion-mouse"&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;!-- Contacts Info --&gt;
+&lt;div class="section contacts"&gt;
+	&lt;div class="content"&gt;
+		&lt;div class="title"&gt;
+			&lt;div class="title_inner"&gt;Contacts&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="service-items"&gt;
+			&lt;div class="service-item"&gt;
+				&lt;div class="icon"&gt;&lt;span class="ion ion-android-phone-portrait"&gt;&lt;/span&gt;&lt;/div&gt;
+				&lt;div class="name"&gt;Phone&lt;/div&gt;
+				&lt;p&gt;+ (231) 456 67 89&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class="service-item"&gt;
+				&lt;div class="icon"&gt;&lt;span class="ion ion-email"&gt;&lt;/span&gt;&lt;/div&gt;
+				&lt;div class="name"&gt;Email&lt;/div&gt;
+				&lt;p&gt;&lt;a href="mailto:steve-pearson@gmail.com"&gt;steve-pearson@gmail.com&lt;/a&gt;&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div class="service-item"&gt;
+				&lt;div class="icon"&gt;&lt;span class="ion ion-ios-location"&gt;&lt;/span&gt;&lt;/div&gt;
+				&lt;div class="name"&gt;Address&lt;/div&gt;
+				&lt;p&gt;2621 W Pico Blvd, Los Angeles&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;!-- Contact Form --&gt;
+		&lt;div class="contact_form"&gt;
+			&lt;form id="cform" method="post"&gt;
+				&lt;div class="group-val"&gt;
+					&lt;input type="text" name="name" placeholder="Name" /&gt;
+				&lt;/div&gt;
+				&lt;div class="group-val"&gt;
+					&lt;input type="text" name="email" placeholder="Email" /&gt;
+				&lt;/div&gt;
+				&lt;div class="group-val ct-gr"&gt;
+					&lt;textarea name="message" placeholder="Message"&gt;&lt;/textarea&gt;
+				&lt;/div&gt;
+				&lt;a href="#" class="btn fill" onclick="$('#cform').submit(); return false;" data-text="Send Message"&gt;Send Message&lt;/a&gt;
+			&lt;/form&gt;
+			&lt;div class="alert-success"&gt;
+				&lt;p&gt;Thanks, your message is sent successfully. We will contact you shortly!&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+					</code>
+				</pre>							
+			</article>	
+			<article id="icons" class="dt-section">
+				<h2 class="dt-title">Icons</h2>
+				<p>
+					In this theme are defined some of classes for icons, your can see all icons here - http://ionicons.com/.
+				</p>
+			</article>
+			<article id="credits" class="dt-section">
+				<h2 class="dt-title">Sourse & Credits</h2>
+				<h3>Scripts</h3>
+				<ul class="dt-list dt-list_nested dt-info-block">
+					<li>
+						<span class="dt-label dt-label_bold">Animate.css</span> <a target="_blank" href="https://daneden.github.io/animate.css/">https://daneden.github.io/animate.css/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">jQuery</span> <a target="_blank" href="https://jquery.com/">https://jquery.com/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Isotope</span> <a target="_blank" href="https://isotope.metafizzy.co/">https://isotope.metafizzy.co/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">imagesLoaded</span> <a target="_blank" href="http://imagesloaded.desandro.com/">http://imagesloaded.desandro.com/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">jQuery Validation Plugin</span> <a target="_blank" href="http://jqueryvalidation.org/">http://jqueryvalidation.org/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Magnific Popup</span> <a target="_blank" href="http://dimsemenov.com/plugins/magnific-popup/">http://dimsemenov.com/plugins/magnific-popup/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Typed JS</span> <a target="_blank" href="http://www.mattboldt.com/demos/typed-js/">http://www.mattboldt.com/demos/typed-js/</a>
+					</li>
+				</ul>
+				<h3>Fonts</h3>
+				<ul class="dt-list dt-list_nested dt-info-block">
+					<li>
+						<span class="dt-label dt-label_bold">Roboto Mono</span> <a target="_blank" href="https://www.google.com/fonts/specimen/Roboto+Mono">https://www.google.com/fonts/specimen/Roboto+Mono</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Ionicons</span> <a target="_blank" href="http://ionicons.com/">http://ionicons.com/</a>
+					</li>
+				</ul>
+				<h3>Images</h3>
+				<p>Any Images or logos used in previews are not included in this item or final purchase.</p>
+				<ul class="dt-list dt-list_nested dt-info-block">
+					<li>
+						<span class="dt-label dt-label_bold">Unsplash</span> <a target="_blank" href="https://unsplash.com/">https://unsplash.com/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Graphicburger</span> <a target="_blank" href="http://graphicburger.com/">http://graphicburger.com/</a>
+					</li>
+				</ul>
+			</article>		
+		</div>
+	</div>
+<script src="assets/rainbow-custom.min.js"></script> 
+</body>
+</html>
