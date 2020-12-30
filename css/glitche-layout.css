@@ -252,10 +252,12 @@ header .head-top .top-menu ul li.active .btn {
   -moz-transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
-  box-shadow: inset 0 -6px 0px #ede574;
+  /*
+  box-shadow: inset 0 -6px 0px ;
   -moz-box-shadow: inset 0 -6px 0px #ede574;
   -webkit-box-shadow: inset 0 -6px 0px #ede574;
   -khtml-box-shadow: inset 0 -6px 0px #ede574;
+  */
 }
 
 /* 3. Started */
