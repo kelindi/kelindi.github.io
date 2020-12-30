@@ -26,22 +26,19 @@
 */
 /* 0. Custom*/
 .hide {
-	display: none;
+  display: none;
 }
 .kel-topname {
-	font-size:22px;
-	font-family: "Roboto Mono";
-	font-weight:500;
-	
-
+  font-size: 22px;
+  font-family: "Roboto Mono";
+  font-weight: 500;
 }
 .kel-botname {
-	font-size:18px;
-	font-family: "Roboto Mono";
-	font-weight:500;
-	margin: 0 0 15px 0;
+  font-size: 18px;
+  font-family: "Roboto Mono";
+  font-weight: 500;
+  margin: 0 0 15px 0;
 }
-
 
 /* 1. Basic */
 html {
@@ -248,7 +245,7 @@ h6 {
 }
 
 p {
-  font-size: 13px;
+  font-size: 16px;
   line-height: 23px;
   padding: 0;
   margin: 30px 0;
