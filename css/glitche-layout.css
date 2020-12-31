@@ -537,7 +537,7 @@ header .head-top .top-menu ul li.active .btn {
 
 /* test */
 .skills ul li .name {
-  font-size: 20px;
+  font-size: 16px;
   color: #363636;
   font-weight: 400;
   position: relative;
@@ -1213,7 +1213,7 @@ a.btn, .btn {
 }
 
 .skills.list ul li .name:before {
-  content: "\f121";
+  content: "\f363";
   position: absolute;
   left: 0;
   top: 3px;
