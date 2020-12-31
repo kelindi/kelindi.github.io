@@ -535,8 +535,9 @@ header .head-top .top-menu ul li.active .btn {
   padding: 5px 0 30px 0;
 }
 
+/* test */
 .skills ul li .name {
-  font-size: 16px;
+  font-size: 20px;
   color: #363636;
   font-weight: 400;
   position: relative;
@@ -1189,12 +1190,14 @@ a.btn, .btn {
   display: none;
 }
 
+/*
 .skills ul li .name {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 400;
   position: relative;
   margin: 0 0 9px 0;
 }
+*/
 
 .skills.circles ul li .name {
   position: absolute;
