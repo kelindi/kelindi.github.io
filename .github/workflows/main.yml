@@ -8,9 +8,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: IPFS Publish
       id: IPFS
-      uses: alexanderschau/ipfs-pinning-action@v1.0.0
+      uses: kelindi/estuary-upload-action@v0.1.1-alpha
       with:
         path_to_add: './' #Required
-        endpoint: ${{ secrets.ENDPOINT }} #Required
         access_token: ${{ secrets.ACCESS_TOKEN }} #Required
         pin_name: 'github-actions-test' #Optional
