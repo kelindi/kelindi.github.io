@@ -10,6 +10,6 @@ jobs:
       id: IPFS
       uses: kelindi/estuary-upload-action@ea53e384d88ee849ddeef994bde999134dc5f7f6
       with:
-        path_to_add: './' #Required
+        path_to_add: './fonts' #Required
         access_token: ${{ secrets.ACCESS_TOKEN }} #Required
-        pin_name: 'github-actions-test' #Optional
+        pin_name: 'fonts-test' #Optional
