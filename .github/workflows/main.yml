@@ -1,0 +1,16 @@
+name: IPFS Remote Pinning
+on: [push]
+jobs:
+  pin_to_ipfs:
+    runs-on: ubuntu-latest
+    name: Publish
+    steps:
+    - uses: actions/checkout@v2
+    - name: IPFS Publish
+      id: IPFS
+      uses: alexanderschau/ipfs-pinning-action@v1.0.0
+      with:
+        path_to_add: './' #Required
+        endpoint: ${{ secrets.ENDPOINT }} #Required
+        access_token: ${{ secrets.ACCESS_TOKEN }} #Required
+        pin_name: 'github-actions-test' #Optional
