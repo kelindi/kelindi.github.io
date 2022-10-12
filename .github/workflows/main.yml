@@ -8,7 +8,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: IPFS Publish
       id: IPFS
-      uses: kelindi/estuary-upload-action@62a58017752d60f87078e7e23688be03cea90c29
+      uses: kelindi/estuary-upload-action@179de749c909724a61436043c15c8e837a664f21
       with:
         path_to_add: './fonts' #Required
         access_token: ${{ secrets.ACCESS_TOKEN }} #Required
