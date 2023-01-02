@@ -32,7 +32,7 @@ $(function () {
 			/* Typed subtitle */
 			$('.typed-subtitle').typed({
 				stringsElement: $('.typing-subtitle'),
-				loop: true
+				loop: false
 			});
 			
 			/* Typed breadcrumbs */

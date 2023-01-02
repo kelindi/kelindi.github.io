@@ -11,7 +11,9 @@
 */
 
 /* 1. Template Dark */
-
+.message {
+	color: #000000;
+}
 input:focus,
 textarea:focus,
 button:focus {
@@ -39,7 +41,7 @@ textarea:focus:-ms-input-placeholder {
 }
 
 body, .container .line {
-	background: #26262d;
+	background: #000000;
 }
 
 table th, 
@@ -63,7 +65,9 @@ td,
 blockquote,
 .skills ul li .progress .percentage .percent,
 .category {
-	color: #a2a2a6;
+	color: #ffffff;
+	font-family: monospace;
+	font-size: 12px;
 }
 
 input,
@@ -114,7 +118,7 @@ header.opened,
 .skills.circles .progress:after,
 footer,
 header {
-	background: #31313a;
+	background: #000000;
 }
 
 .background-enabled .started-content .glitch-effect:before, 
@@ -197,7 +201,7 @@ button {
 
 .sticky, 
 pre {
-	background-color: #3a3b44;
+	background-color: #000000;
 }
 
 header .head-top .top-menu-nav .sub-menu, 
